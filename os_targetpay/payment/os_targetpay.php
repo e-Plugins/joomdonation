@@ -132,6 +132,16 @@ class os_targetpay extends OSFPayment
             $TargetPayCore->setDescription($description);
             $TargetPayCore->setReturnUrl($return_url);
             $TargetPayCore->setReportUrl($report_url);
+            $email = null;
+            $user = JFactory::getUser();
+            if(!empty($user->get('email'))) {
+                $email = $user->get('email');
+            } else {
+                $email = $row->email;
+            }
+            if ($email) {
+                $TargetPayCore->bindParam('email', $email);
+            }
             $this->additionalParameters($row, $TargetPayCore);
             
             $result = @$TargetPayCore->startPayment();
