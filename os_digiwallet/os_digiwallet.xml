@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension version="3.0" type="file" method="upgrade">
+	<name>os_digiwallet</name>
+	<title>Digiwallet</title>	
+	<author>DigiWallet.nl</author>
+	<creationDate>25-08-2020</creationDate>
+	<copyright>Copyright (C) 2020 e-plugins.nl</copyright>
+	<authorEmail>techsupport@targetmedia.nl</authorEmail>
+	<authorUrl>https://www.digiwallet.nl</authorUrl>
+	<version>1.0</version>
+	<description>Digiwallet Payment Plugin For Joom Donation Extension</description>
+	<scriptfile>install.digiwallet.php</scriptfile>
+	<!-- Fileset definition -->
+	<fileset>
+		<!-- front-end -->
+		<files folder="payment" target="components/com_jdonation/payments">
+			<filename>os_digiwallet.php</filename>
+			<filename>os_digiwallet.xml</filename>
+			<filename>digiwallet.class.php</filename>
+			<folder>vendor</folder>
+		</files>
+		<files target="components/com_jdonation/view">
+            <folder>digiwallet</folder>
+        </files>
+	</fileset>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.com_jdonation_payment_digiwallet.ini</language>
+        <language tag="nl-NL">nl-NL/nl-NL.com_jdonation_payment_digiwallet.ini</language>
+    </languages>
+</extension>
