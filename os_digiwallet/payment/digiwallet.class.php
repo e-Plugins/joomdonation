@@ -15,7 +15,7 @@
  */
 class DigiwalletCore
 {
-    const APP_ID = "dw_joom_donation_1.1";
+    const APP_ID = "dw_joom_donation_1.2";
     // Constants
     const MIN_AMOUNT            = 84;
     
