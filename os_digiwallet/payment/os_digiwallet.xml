@@ -12,21 +12,41 @@
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
-				<field name="tp_rtlo" type="text" size="40" label="Digiwallet Outlet Identifier" description="Enter Digiwallet Outlet Identifier here" default="93929"></field>
-				<field name="tp_token" type="text" size="40" label="Digiwallet token" description="Enter Digiwallet token here"></field>
+				<field name="tp_rtlo" type="text" size="40" label="Digiwallet Outletcode" description="Enter Digiwallet Outletcode here" default="156187"></field>
+				<field name="tp_token" type="text" size="40" label="Digiwallet Api Token" description="Enter Digiwallet Api Token here" default="bf72755a648832f48f0995454"></field>
 				<field name="tp_enable_ide" type="list" label="Enable iDEAL" description="Enable iDEAL in your webshop" default="1">
 				    <option value="0">No</option>
 				    <option value="1">Yes</option>
 				</field>
-				<field name="tp_enable_mrc" type="list" label="Enable Ban contact" description="Enable Ban contact in your webshop" default="1">
+				<field name="tp_enable_mrc" type="list" label="Enable Bancontact" description="Enable Bancontact in your webshop" default="1">
 				    <option value="0">No</option>
 				    <option value="1">Yes</option>
 				</field>
-				<field name="tp_enable_deb" type="list" label="Enable Sofort Banking" description="Enable Sofort Banking in your webshop" default="1">
+				<field name="tp_enable_afp" type="list" label="Enable Afterpay" description="Enable Afterpay in your webshop" default="0">
 				    <option value="0">No</option>
 				    <option value="1">Yes</option>
 				</field>
-				<field name="tp_enable_wal" type="list" label="Enable Paysafe Card" description="Enable Paysafe Card in your webshop" default="1">
+				<field name="tp_enable_bw" type="list" label="Enable Bankwire - Overschrijving" description="Enable Bankwire - Overschijving in your webshop" default="0">
+				    <option value="0">No</option>
+				    <option value="1">Yes</option>
+				</field>					
+				<field name="tp_enable_eps" type="list" label="Enable EPS" description="Enable EPS in your webshop" default="1">
+				    <option value="0">No</option>
+				    <option value="1">Yes</option>
+				</field>
+				<field name="tp_enable_gip" type="list" label="Enable Giropay" description="Enable Giropay in your webshop" default="0">
+				    <option value="0">No</option>
+				    <option value="1">Yes</option>
+				</field>
+				<field name="tp_enable_wal" type="list" label="Enable Paysafe Card" description="Enable Paysafe Card in your webshop" default="0">
+				    <option value="0">No</option>
+				    <option value="1">Yes</option>
+				</field>
+				<field name="tp_enable_pyp" type="list" label="Enable Paypal" description="Enable Paypal in your webshop" default="0">
+				    <option value="0">No</option>
+				    <option value="1">Yes</option>
+				</field>
+				<field name="tp_enable_deb" type="list" label="Enable Sofort" description="Enable Sofort in your webshop" default="1">
 				    <option value="0">No</option>
 				    <option value="1">Yes</option>
 				</field>
@@ -35,26 +55,6 @@
 				    <option value="1">Yes</option>
 				</field>
 				
-				<field name="tp_enable_bw" type="list" label="Enable Bankwire" description="Enable Bankwire in your webshop" default="1">
-				    <option value="0">No</option>
-				    <option value="1">Yes</option>
-				</field>
-				<field name="tp_enable_afp" type="list" label="Enable Afterpay" description="Enable Afterpay in your webshop" default="1">
-				    <option value="0">No</option>
-				    <option value="1">Yes</option>
-				</field>
-				<field name="tp_enable_pyp" type="list" label="Enable Paypal" description="Enable Paypal in your webshop" default="1">
-				    <option value="0">No</option>
-				    <option value="1">Yes</option>
-				</field>
-				<field name="tp_enable_eps" type="list" label="Enable EPS" description="Enable EPS in your webshop" default="1">
-				    <option value="0">No</option>
-				    <option value="1">Yes</option>
-				</field>
-				<field name="tp_enable_gip" type="list" label="Enable Giropay" description="Enable Giropay in your webshop" default="1">
-				    <option value="0">No</option>
-				    <option value="1">Yes</option>
-				</field>
 					</fieldset>
 				</fields>
 	</config>

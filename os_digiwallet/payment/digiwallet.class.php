@@ -1,8 +1,7 @@
 <?php
 
 /**
- * @file     Provides support for Digiwallet iDEAL, Bancontact and Sofort Banking
- * @author  DigiWallet.nl
+ * @file     Provides support for Digiwallet iDEAL, Bancontact and Sofort
  * @copyright Copyright (C) 2020 e-plugins.nl
  * @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  * @url      http://www.e-plugins.nl
@@ -21,7 +20,7 @@ class DigiwalletCore
     
     const ERR_NO_AMOUNT         = "Geen bedrag meegegeven | No amount given";
     const ERR_NO_DESCRIPTION    = "Geen omschrijving meegegeven | No description given";
-    const ERR_NO_RTLO           = "Geen rtlo (layoutcode Digiwallet) bekend; controleer de module instellingen | No rtlo (layoutcode Digiwallet) filled in, check the module settings";
+    const ERR_NO_RTLO           = "Geen Digiwallet Outletcode bekend; controleer de module instellingen | No Digiwallet Outletcode filled in, check the module settings";
     const ERR_NO_TXID           = "Er is een onjuist transactie ID opgegeven | An incorrect transaction ID was given";
     const ERR_NO_RETURN_URL     = "Geen of ongeldige return URL | No or invalid return URL";
     const ERR_NO_REPORT_URL     = "Geen of ongeldige report URL | No or invalid report URL";

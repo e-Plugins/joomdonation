@@ -55,7 +55,7 @@ class os_digiwalletInstallerScript
         
         // active digiwallet
         $sql = "INSERT INTO `#__jd_payment_plugins` (`name`, `title`, `author`, `creation_date`, `copyright`, `license`, `author_email`, `author_url`, `version`, `description`, `params`, `ordering`, `published`) VALUES
-        ('os_digiwallet', 'Payment via Digiwallet', 'DigiWallet.nl', '25-08-2020', 'Copyright 2020 DigiWallet.nl', 'http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU/GPL version 2', 'techsupport@targetmedia.nl', 'https://www.digiwallet.nl', '1.0', 'Digiwallet Payment Plugin For Joom Donation Extension', NULL, 0, 1);";
+        ('os_digiwallet', 'Payment via Digiwallet', 'DigiWallet.nl', '25-08-2020', 'Copyright 2020 DigiWallet.nl', 'http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU/GPL version 2', 'techsupport@targetmedia.eu', 'https://www.digiwallet.nl', '1.0', 'Digiwallet Payment Plugin For Joom Donation Extension', NULL, 0, 1);";
         $db->setQuery($sql);
         $db->execute();
     }
