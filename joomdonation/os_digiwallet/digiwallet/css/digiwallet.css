@@ -1,0 +1,17 @@
+.form.digiwallet-frm .control-group {
+    margin-bottom: 15px;
+}
+.form.digiwallet-frm .control-label{
+    width: 100%;
+    float: none;
+}
+.form.digiwallet-frm .control-label img{
+    margin-left: 10px;
+}
+.form.digiwallet-frm .controls{
+    margin-left: 20px;
+    
+}
+.form.digiwallet-frm .sel-payment-data{
+    margin-top: 10px;
+}

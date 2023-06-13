@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.9" client="site" method="upgrade">
+	<name>mod_digiwallet_donation</name>
+	<creationDate>2020-05-05</creationDate>
+    <copyright>Copyright (C) 2020 e-plugins.nl. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <author>DigiWallet.nl</author>
+    <authorEmail>techsupport@targetmedia.nl</authorEmail>
+    <authorUrl>https://www.digiwallet.nl</authorUrl>
+    <version>1.0.5</version>
+    <description>Simple donation module using Digiwallet</description>
+    <files>
+        <filename>mod_digiwallet_donation.xml</filename>
+        <filename module="mod_digiwallet_donation">mod_digiwallet_donation.php</filename>
+        <filename>tmpl/default.php</filename>
+    </files>
+	<languages>
+        <language tag="nl-NL">language/nl-NL/nl-NL.mod_digiwallet_donation.ini</language>
+		<language tag="nl-NL">language/nl-NL/nl-NL.mod_digiwallet_donation.sys.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.mod_digiwallet_donation.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.mod_digiwallet_donation.sys.ini</language>
+  	</languages>
+</extension>
