@@ -1,0 +1,1 @@
+ALTER TABLE `#__digiwallet_donation` ADD COLUMN IF NOT EXISTS `token` varchar(255) DEFAULT NULL AFTER `rtlo`

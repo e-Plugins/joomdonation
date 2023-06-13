@@ -1,0 +1,9 @@
+.digiwallet-donation-form{
+	padding: 15px;
+}
+.digiwallet-donation-form input[type="radio"]{
+	margin: 5px;
+}
+.controls{
+	margin: 10px 15px;
+}

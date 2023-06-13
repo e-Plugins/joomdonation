@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="1.1" method="upgrade">
+	<name>Digiwallet Donation Package</name>
+	<packagename>digiwallet_donation</packagename>
+	<author>DigiWallet.nl</author>
+	<creationDate>05-05-2020</creationDate>
+	<copyright>Copyright (C) 2020 e-plugins.nl</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>techsupport@targetmedia.nl</authorEmail>
+	<authorUrl>https://www.digiwallet.nl</authorUrl>
+	<version>1.0.5</version>
+	<files folder="packages">
+		<file type="component" id="digiwalletdonation">com_digiwallet_donation.zip</file>
+		<file type="module" id="digiwalletdonation" client="site">mod_digiwallet_donation.zip</file>
+		<file type="plugin" id="digiwalletdonationbutton" client="site">plugin_digidonate.zip</file>
+	</files>
+</extension>

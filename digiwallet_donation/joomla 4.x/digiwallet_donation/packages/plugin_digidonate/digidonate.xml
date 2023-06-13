@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="plugin" group="content" method="upgrade">
+	<name>Digiwallet Donate Button</name>
+	<author>Digiwallet</author>
+	<creationDate>2023-11</creationDate>
+	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>techsupport@targetmedia.nl</authorEmail>
+	<authorUrl>targetmedia.nl</authorUrl>
+	<version>1.0.0</version>
+	<description>Use to load Donate Button of Digiwallet payment, Syntax: {digidonate [button_id]}.</description>
+	<files>
+		<filename plugin="digidonate">digidonate.php</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+						name="style"
+						type="list"
+						label="Style"
+						default="none"
+						validate="options"
+				>
+					<option value="none">No wrapping (raw output)</option>
+					<option value="html5">Wrapped by Divs</option>
+					<option value="table">Wrapped by table (column)</option>
+					<option value="horz">Wrapped by table (horizontal)</option>
+					<option value="rounded">Wrapped by Multiple Divs</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
